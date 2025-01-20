@@ -55,6 +55,8 @@ setup(
     install_requires=[
         "pretix>=4.16",
         "web3>=6",
+        "eth-account<=0.8.0",
+        "setuptools>=68.0.0",
         # django-bootstrap3 22.2 under py3.8, added for pip legacy resolver to avoid conflicts
         'importlib-metadata<3; python_version<"3.8"',
     ],
